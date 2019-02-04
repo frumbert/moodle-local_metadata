@@ -4,6 +4,8 @@ The “local metadata” plugin has been created to allow extra, “metadata” 
 assigned to various context level elements in Moodle. It is an abstraction of the current “user
 profile field” functionality in Moodle and contains much of the same code.
 
+  > Heads up! Moodle 3.7 is set to implement a new feature which implements this in core. See https://docs.moodle.org/dev/Custom_fields_API and https://tracker.moodle.org/browse/MDL-57898. This would make this plugin irrelevant for the newer versions. 
+
 The data model includes context level identifiers to allow the same data tables and API’s to be
 used for all of the different context levels. The plugin has been designed with the ability to be
 adopted into core, and completely replace the current user profile field feature if desired.
